@@ -1,0 +1,115 @@
+
+div#header {
+	all: unset; 
+	background-color: #F3F2ED;
+}
+
+div#header h1 {
+	
+	height: 80px;
+	line-height: 80px;
+	margin: 0px 0 0 0;
+	padding-left: 10px;
+	background: #fff url('../image/library.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 10px;
+	
+}
+
+
+div#header #menu {
+	margin-top:3px; 
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+#menu ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#menu li#logo {
+	float: left;
+}
+#menu li{
+	float: right;
+}
+
+#menu li a {
+	display: block;
+	text-align: center;
+	padding: 10px 16px 20px 16px;
+	text-decoration: none;
+}
+#menu .active {
+	background-color: #4CAF50;
+}
+
+
+#menu li#logo:hover{
+	opacity: 1;
+}
+#menu li#cart {
+	width: 20px;
+	background: url('../image/cart.png');
+	background-position: center;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+#menu li#cart:hover{
+	opacity: 1;
+}
+ #menu li#mypage {
+	width: 20px;
+	background: url('../image/mypage.png');
+	background-position: bottom;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+#menu limypage:hover{
+	opacity: 1;
+}
+#sub_menu ul {
+	list-style-type: none;
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+	width: 600px;
+	margin: 0px auto 0px auto;
+}
+#sub_menu ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#sub_menu li{
+	width: 25%;
+	float: left;
+}
+
+#sub_menu li a {
+	display: block;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	color: #000;
+	font-size: 9pt;
+	font-weight: 900;
+	opacity: 1;
+}
+
+#sub_menu li a:hover {
+	color: #222;
+    font-weight: bold;
+	opacity: 0.8
+}
